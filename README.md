@@ -1,2 +1,2 @@
-# simple-toastmasters-site
-A one-page site for a Toastmasters website
+# Simple Toastmasters Site
+This is an exmaple of a one-page Toastmasters website for my local club, Oak Hill Toastmasters.
