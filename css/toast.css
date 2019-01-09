@@ -1,0 +1,92 @@
+/*
+* Custom Stylesheet using Toastmaster approved colors and fonts
+*/
+
+:root
+{
+  --pantone127: #F2DF74;
+  --pantone188: #772432;
+  --pantone302: #004165;
+  --pantone442: #A9B2B1;
+  --pantone1795: #CD202C;
+}
+
+h1.title
+{
+  color: var(--pantone442);
+}
+
+.scrollblock
+{
+  position: relative;
+  margin: 0;
+  color: white;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Arial;
+}
+
+.scrollblock h1, h2, h3, h4, h5, h6
+{
+  font-family: Montserrat;
+}
+
+.header
+{
+  background: var(--pantone302);
+  padding-top: 0;
+}
+
+.header a
+{
+  color: var(--pantone127);
+}
+
+.header li
+{
+  list-style-type: none;
+}
+
+.welcome
+{
+  background: var(--pantone127);
+  color: black;
+}
+
+.visit
+{
+  background: var(--pantone442);
+  color: black;
+}
+
+.membership
+{
+  background: var(--pantone188);
+}
+
+.links
+{
+  background: var(--pantone1795);
+}
+
+.links a
+{
+  color:var(--pantone127);
+}
+
+.contact
+{
+  background: var(--pantone302);
+}
+
+.contactform
+{
+  color: black;
+}
+
+i.fas
+{
+  padding-right: 6px;
+}
+
