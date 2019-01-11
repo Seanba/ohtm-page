@@ -14,7 +14,7 @@ function setNextMeeting() {
               var options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' };
               var date = new Date(meeting.local_date);
               var str_date = date.toLocaleDateString("en-US", options);
-              next.innerHTML = "RSVP " + str_date;
+              next.innerHTML = "<strong>Next meeting: " + str_date + "</strong>";
               next.href = "//www.meetup.com/Oak-Hill-Toastmasters/events/" + meeting.id;
           }
       },
